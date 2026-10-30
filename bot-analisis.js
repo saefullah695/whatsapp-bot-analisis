@@ -21,7 +21,7 @@ const API_KEY = process.env.API_KEY || 'gateway_key_123';
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
-const CREDENTIALS_FILE = process.env.GOOGLE_APPLICATION_CREDENTIALS || 'oceanic-student-295612-3522644ba19e.json';
+const CREDENTIALS_FILE = process.env.GOOGLE_APPLICATION_CREDENTIALS || 'tes-295612-3522644ba19e.json';
 const STORE_TYPE = process.env.STORE_TYPE || 'normal'; // 'normal' atau '24jam'
 
 // ====== KREDENSIAL BASIC AUTH GATEWAY ======
