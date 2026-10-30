@@ -1,0 +1,22 @@
+{
+  "name": "bot-analisis",
+  "version": "1.0.0",
+  "description": "Bot Analisis Multi-Group",
+  "type": "module",
+  "main": "bot-analisis.js",
+  "scripts": {
+    "start": "node bot-analisis.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "axios": "^1.7.9",
+    "axios-retry": "^4.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3"
+  }
+}
